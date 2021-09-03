@@ -1,0 +1,69 @@
+1.分层建包
+2.数据库和实体类
+3.mybatis设置，工具类
+4.动态的页面以及逻辑
+5.建立message模型
+6.写servlet接受客户端发送的消息以及重定向以及请求转发，调用service层将数据放入message模型，调用service方法
+7.编写service层的业务，service层调用dao层（mapper）
+8.mapper与数据库进行交互。
+
+登录逻辑
+    1.接受客户端的请求（参数）
+    2.非空校验
+        如果为空，消息模型返回，放入request域对象，请求转发回login.jsp
+        return
+    3.用户名校验
+        不正确，通过消息模型返回结果
+        放入request域对象，请求转发回login.jsp
+        return
+    4.密码校验
+        不相等，消息模型返回结果
+        放入request域对象，请求转发回login.jsp
+        相等，登录成功
+        重定向跳转到index.jsp
+        保存在session
+
+        controller层
+            1 接受客户端请求（接受数据）
+            2 调用service方法，返回消息模型对象
+            3 判断消息模型
+                失败加入request域对象，转发
+                成功
+                加入session域对象
+                重定向
+
+        service层
+            1 参数非空判断
+                如果为空
+                 封装消息模型
+            2 调用dao层，查询用户
+            3 判断是否有
+                返回消息模型
+            4 判断密码是否一致
+                不一致则返回消息模型
+            5 将成功状态封装消息模型
+                返回
+            3dao层
+                定义对应的接口
+
+注册逻辑
+        1 接受客户端的请求
+        2 调用service层将封装，传给model
+            判断是否为空
+               如果为空，封装为model数据回显，显示为request域对象
+               不为空，注册成功，跳转回主页，显示为session域对象
+        3 调用dao层将数据增加给数据库
+
+        controller层
+            接受数据
+            调用service，处理逻辑，返回消息模型
+            判断为空
+                加入request域对象
+            不为空
+                加入request域对象
+        service层
+            调用dao层，进行增加操作
+            调用工具类
+        dao层
+            定义接口
+            道具类

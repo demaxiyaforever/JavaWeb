@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.mapper.BookMapper">
+    <select id="queryBookByName" parameterType="String" resultType="com.xxxx.entity.Book">
+        select * from tb_book where bookName = #{bookName}
+    </select>
+    <select id="getBookListAll" resultType="com.xxxx.entity.Book" parameterType="String">
+        select * from tb_book
+    </select>
+    <insert id="saveBook" parameterType="com.xxxx.entity.Book" >
+        insert into tb_book (bookName,bookPrice,bookAurthor,bookSale,bookRest) values(#{bookName},#{bookPrice},#{bookAurthor},#{bookSale},#{bookRest});
+    </insert>
+
+    <update id="deleteBookByName" parameterType="String" >
+        delete from tb_book where bookName = #{bookName}
+    </update>
+
+    <update id="updateBook" parameterType="com.xxxx.entity.Book">
+        update  tb_book set bookName=#{bookName},bookPrice=#{bookPrice},bookAurthor=#{bookAurthor},bookSale=#{bookSale},bookRest=#{bookRest} where bookName=#{bookName};
+    </update>
+
+    <select id="getBookList" resultType="com.xxxx.entity.Book" parameterType="String">
+        select * from tb_book limit ${start},${stop}
+    </select>
+
+</mapper>
