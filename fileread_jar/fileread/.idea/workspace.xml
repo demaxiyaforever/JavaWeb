@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fileread:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1128df89-4742-4e0d-a1c6-3909931c6750" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.2-bin/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\java开发\maven\apache-maven-3.8.2-bin\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22iN4UzARFb5SkkB4K3Tbr28Ogj" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.23113208" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunManager">
+    <configuration name="fileread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileread" />
+      <module name="fileread" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\\Users\\james1148160216\\Desktop\\1.xls&quot; &quot;0x80&quot; &quot;C:\\Users\\james1148160216\\Desktop\\5.txt&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.fileread" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1128df89-4742-4e0d-a1c6-3909931c6750" name="Changes" comment="" />
+      <created>1640316259533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640316259533</updated>
+      <workItem from="1640316266720" duration="1637000" />
+      <workItem from="1640333913234" duration="2268000" />
+      <workItem from="1640408294743" duration="4022000" />
+      <workItem from="1640580711416" duration="62000" />
+      <workItem from="1640580794627" duration="11496000" />
+      <workItem from="1640593621922" duration="4277000" />
+      <workItem from="1640672238829" duration="612000" />
+      <workItem from="1640673029646" duration="3799000" />
+      <workItem from="1640678704197" duration="3239000" />
+      <workItem from="1640705088060" duration="7525000" />
+      <workItem from="1640760814388" duration="28803000" />
+      <workItem from="1640851686901" duration="25182000" />
+      <workItem from="1640940234240" duration="1480000" />
+      <workItem from="1640941752768" duration="992000" />
+      <workItem from="1641608772551" duration="9834000" />
+      <workItem from="1642324802379" duration="3721000" />
+      <workItem from="1642340658711" duration="1808000" />
+      <workItem from="1642920487936" duration="30000" />
+      <workItem from="1642920537986" duration="10068000" />
+      <workItem from="1642944309661" duration="73000" />
+      <workItem from="1643864719074" duration="273000" />
+      <workItem from="1644849269975" duration="2107000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/types/OtFile/EmlRead.java</url>
+          <line>125</line>
+          <properties class="types.OtFile.EmlRead" method="reMultipart">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
